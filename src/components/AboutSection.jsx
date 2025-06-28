@@ -34,7 +34,7 @@ function AboutSection() {
               </a>
 
               <a
-                href="https://drive.google.com/file/d/10U5bCIIQV9Dob7LYiT3t_REBI2EfIapb/view?usp=sharing" target="_blank"
+                href="https://drive.google.com/file/d/1-PW5oV0N3RUaWwxGE07YmPq1_C14YpHg/view?usp=sharing" target="_blank"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download Resume
