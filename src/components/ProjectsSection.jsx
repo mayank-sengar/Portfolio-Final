@@ -5,25 +5,25 @@ import project1 from '../assets/projects/project1.png'
 import project2 from '../assets/projects/project2.png'
 function ProjectsSection() {
     
-    const [projects,setProjects] = useState([
-        {
-            id:1,
-            title: "AI News Agent",
-            description: "Summarizes articles and fetches whichever news you want",
-            image: project1,
-            tags: ["React","TailwindCSS","GroqAI","Clerk"],
-            demoUrl: "https://ainewsagent.netlify.app/",
-            githubUrl: "https://github.com/mayank-sengar/AI-NEWS-AGENT",
-        },
-        {
-            id:2,
-            title: "Taskify",
-            description: "A modern, feature-rich Task Manager web application",
-            image: project2,
-            tags: ["React","TailwindCSS","Supabase"],
-            demoUrl: "https://todoreactor.netlify.app/",
-            githubUrl: "https://github.com/mayank-sengar/TODO_IETE_REACTOR",
-        }
+    const [projects, setProjects] = useState([
+      {
+        id: 1,
+        title: "PrepAI",
+        description: "AI Powered Interview Preparation Platform (MERN + Gemini)",
+        image: project1,
+        tags: ["React", "NodeJS", "MongoDB", "Gemini", "TailwindCSS", "MERN"],
+        demoUrl: "https://prepai-interview.onrender.com/",
+        githubUrl: "https://github.com/mayank-sengar/PrepAI.git",
+      },
+      {
+        id: 2,
+        title: "Taskify",
+        description: "A modern, feature-rich Task Manager web application",
+        image: project2,
+        tags: ["React", "TailwindCSS", "Supabase"],
+        demoUrl: "https://todoreactor.netlify.app/",
+        githubUrl: "https://github.com/mayank-sengar/TODO_IETE_REACTOR",
+      }
     ])
   return (
     <>
