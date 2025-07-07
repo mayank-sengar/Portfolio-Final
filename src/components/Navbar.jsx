@@ -7,7 +7,7 @@ function Navbar() {
         {name:"About",href:"#about"},
         {name:"Skills",href:"#skills"},
         {name:"Projects",href:"#projects"},
-        {name:"Resume",href:"https://drive.google.com/file/d/1-PW5oV0N3RUaWwxGE07YmPq1_C14YpHg/view?usp=sharing",target:"_blank"},
+        {name:"Resume",href:"https://drive.google.com/file/d/1xUpngrFt454rEsinowCDWLSKLoyI4Ad_/view?usp=sharing",target:"_blank"},
         {name:"Contact",href:"#contact"},
     ];
     const [isScrolled,setIsScrolled] = useState(false);
