@@ -5,6 +5,7 @@ import {
     MapPin,
     Phone,
     Send,
+    Twitter
     
   } from "lucide-react";
   import { cn } from "@/lib/utils";
@@ -108,11 +109,11 @@ import {
                     <Linkedin className="h-6 w-6" />
                   </a>
                   <a 
-                    href="https://www.instagram.com/mayanksengar/" 
+                    href="https://x.com/MayankSengar143" 
                     target="_blank"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    <Instagram className="h-6 w-6" />
+                    <Twitter className="h-6 w-6" />
                   </a>
                   
                 </div>
