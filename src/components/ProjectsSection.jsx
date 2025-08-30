@@ -9,20 +9,20 @@ function ProjectsSection() {
       {
         id: 1,
         title: "PrepAI",
-        description: "AI Powered Interview Preparation Platform (MERN + Gemini)",
+        description: "AI Powered Interview Preparation Platform",
         image: project1,
-        tags: ["React", "NodeJS", "MongoDB", "Gemini", "TailwindCSS", "MERN"],
+        tags: ["React", "NodeJS", "MongoDB","Express", "Gemini", "TailwindCSS", "MERN"],
         demoUrl: "https://prepai-interview.onrender.com/",
         githubUrl: "https://github.com/mayank-sengar/PrepAI.git",
       },
       {
         id: 2,
-        title: "Taskify",
-        description: "A modern, feature-rich Task Manager web application",
+        title: "Collavi",
+        description: "Collavi is a modern, full-stack communication platform that connects people based on shared skills and professional domains.",
         image: project2,
-        tags: ["React", "TailwindCSS", "Supabase"],
-        demoUrl: "https://todoreactor.netlify.app/",
-        githubUrl: "https://github.com/mayank-sengar/TODO_IETE_REACTOR",
+        tags: ["React", "NodeJS", "MongoDB", "Express", "TailwindCSS","SocketIO","GetStream SDK", "MERN"],
+        demoUrl: "https://collavi.onrender.com/",
+        githubUrl: "https://github.com/mayank-sengar/Collavi",
       }
     ])
   return (
